@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eCommerce - Pure CSS</title>
+    <!-- <link rel="stylesheet" href="assets/font/css/all.min.css" /> 
+    <link rel="stylesheet" href="assets/font/css/fontawesome.min.css" /> 
+    <link rel="stylesheet" href="assets/font/css/solid.css" />  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <header style="box-shadow: 0px 0px 12px 6px #11111133;">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">
+                        <img src="assets/img/01.png" alt="" />
+                    </a>
+                </div>
+                <div class="main-link">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="shop.html">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="icons-widgets">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="assets/img/user.png" alt="" /> </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/search.png" alt="" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/heart.png" alt="" /></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="assets/img/cart.png" alt="" /></a>
+                        </li>
+                        <li id="icon"><i class="fa fa-sun"></i></li>
+                        <li id="icon"><i class="fa fa-moon"></i></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--section Hero-->
+    <section class="breadcrum">
+        <div class="breadcrum-wrapper">
+            <h1>Shop</h1>
+            <p>
+                Home
+                <span class="fa fa-angle-right"></span>
+                <a href="#">Shop</a>
+            </p>
+        </div>
+    </section>
+    <!--section Hero ENDS-->
+    <!--section Products-->
+    <section class="product-filter">
+        <div class="container">
+            <div class="filter-wrapper">
+                <div class="filter">
+                    <div class="icons">
+                    <img src="assets/img/shop/system-uicons_filtering.svg" alt="">
+                    <span>Filter</span>
+                    <img src="assets/img/shop/ci_grid-big-round.svg" alt="">
+                    <img src="assets/img/shop/bi_view-list.svg" alt="">
+                    </div>
+             
+                </div>
+                <div class="filter-data">
+                    <div class="show-data">
+                        <hp6>Showing 1–16 of 32 results</hp6>
+                    </div>
+                    <div class="dropDown">
+                        <div class="showResult">
+                            <label for="show">Show</label>
+                            <select name="show" id="show">
+                                <option value="12">12</option>
+                                <option value="12">16</option>
+                                <option value="12">24</option>
+                                <option value="12">32</option>
+                            </select>
+                        </div>
+                        <div class="showResult item2">
+                            <label for="show2">Sort By</label>
+                            <select name="show2" id="show2">
+                                <option value="12">Default</option>
+                                <option value="12">Popularity</option>
+                                <option value="12">Best Selling</option>
+                                <option value="12">Low to High</option>
+                                <option value="12">High to Low</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!--section Products ends-->
+
+    <section class="our-products">
+        <div class="container">
+            <div class="row">
+                <div class="product-cards">
+                    <div class="card-img">
+                        <img src="assets/img/products/01.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h3><a href="#">Syltherine</a></h3>
+                        <p>Stylish cafe chair</p>
+                        <div class="var-price">
+                            <h4>Rp 2.500.000</h4>
+                            <h5>Rp 3.500.000</h5>
+                        </div>
+                    </div>
+                    <div class="overlay d-flex">
+                        <div class="add-to-cart">
+                            <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                        </div>
+                        <div class="shareIcons">
+                            <a href="#"><i class="fa fa-share"></i>Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-cards">
+                    <div class="card-img">
+                        <img src="assets/img/products/02.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h3><a href="#">Leviosa</a></h3>
+                        <p>Stylish cafe chair</p>
+                        <div class="var-price">
+                            <h4>Rp 247,500.000</h4>
+                        </div>
+                    </div>
+                    <div class="overlay d-flex">
+                        <div class="add-to-cart">
+                            <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                        </div>
+                        <div class="shareIcons">
+                            <a href="#"><i class="fa fa-share"></i>Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-cards">
+                    <div class="card-img">
+                        <img src="assets/img/products/03.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h3><a href="#">Lolito</a></h3>
+                        <p>Stylish cafe chair</p>
+                        <div class="var-price">
+                            <h4>Rp 123,500.000</h4>
+                            <h5>Rp 233,600.000</h5>
+                        </div>
+                    </div>
+                    <div class="overlay d-flex">
+                        <div class="add-to-cart">
+                            <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                        </div>
+                        <div class="shareIcons">
+                            <a href="#"><i class="fa fa-share"></i>Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-cards">
+                    <div class="card-img">
+                        <img src="assets/img/products/04.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h3><a href="#">Respira</a></h3>
+                        <p>Stylish cafe chair</p>
+                        <div class="var-price">
+                            <h4>Rp 7.500.000</h4>
+                        </div>
+                    </div>
+                    <div class="overlay d-flex">
+                        <div class="add-to-cart">
+                            <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                        </div>
+                        <div class="shareIcons">
+                            <a href="#"><i class="fa fa-share"></i>Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--row one ends here-->
+            <div class="row mt-15">
+                <div class="product-cards">
+                    <div class="card-img">
+                        <img src="assets/img/products/05.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h3><a href="#">Grifo</a></h3>
+                        <p>Night lamp</p>
+                        <div class="var-price">
+                            <h4>Rp 2.500.000</h4>
+                            <h5>Rp 3.500.000</h5>
+                        </div>
+                    </div>
+                    <div class="overlay d-flex">
+                        <div class="add-to-cart">
+                            <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                        </div>
+                        <div class="shareIcons">
+                            <a href="#"><i class="fa fa-share"></i>Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-cards">
+                    <div class="card-img">
+                        <img src="assets/img/products/06.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h3><a href="#">Muggo</a></h3>
+                        <p>Stylish cafe chair</p>
+                        <div class="var-price">
+                            <h4>Rp 1500,00</h4>
+                        </div>
+                    </div>
+                    <div class="overlay d-flex">
+                        <div class="add-to-cart">
+                            <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                        </div>
+                        <div class="shareIcons">
+                            <a href="#"><i class="fa fa-share"></i>Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-cards">
+                    <div class="card-img">
+                        <img src="assets/img/products/07.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h3><a href="#">Pingky</a></h3>
+                        <p>Cute bed set</p>
+                        <div class="var-price">
+                            <h4>Rp 123,500.000</h4>
+                            <h5>Rp 233,600.000</h5>
+                        </div>
+                    </div>
+                    <div class="overlay d-flex">
+                        <div class="add-to-cart">
+                            <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                        </div>
+                        <div class="shareIcons">
+                            <a href="#"><i class="fa fa-share"></i>Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-cards">
+                    <div class="card-img">
+                        <img src="assets/img/products/08.png" alt="" class="img-fluid" />
+                    </div>
+                    <div class="card-body">
+                        <h3><a href="#">Potty</a></h3>
+                        <p>Minimalist flower pot</p>
+                        <div class="var-price">
+                            <h4>Rp 500.000</h4>
+                        </div>
+                    </div>
+                    <div class="overlay d-flex">
+                        <div class="add-to-cart">
+                            <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                        </div>
+                        <div class="shareIcons">
+                            <a href="#"><i class="fa fa-share"></i>Share</a>
+                            <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                            <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--row one ends here-->
+                <div class="row mt-15">
+                    <div class="product-cards">
+                        <div class="card-img">
+                            <img src="assets/img/products/05.png" alt="" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h3><a href="#">Grifo</a></h3>
+                            <p>Night lamp</p>
+                            <div class="var-price">
+                                <h4>Rp 2.500.000</h4>
+                                <h5>Rp 3.500.000</h5>
+                            </div>
+                        </div>
+                        <div class="overlay d-flex">
+                            <div class="add-to-cart">
+                                <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                            </div>
+                            <div class="shareIcons">
+                                <a href="#"><i class="fa fa-share"></i>Share</a>
+                                <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                                <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product-cards">
+                        <div class="card-img">
+                            <img src="assets/img/products/06.png" alt="" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h3><a href="#">Muggo</a></h3>
+                            <p>Stylish cafe chair</p>
+                            <div class="var-price">
+                                <h4>Rp 1500,00</h4>
+                            </div>
+                        </div>
+                        <div class="overlay d-flex">
+                            <div class="add-to-cart">
+                                <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                            </div>
+                            <div class="shareIcons">
+                                <a href="#"><i class="fa fa-share"></i>Share</a>
+                                <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                                <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product-cards">
+                        <div class="card-img">
+                            <img src="assets/img/products/07.png" alt="" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h3><a href="#">Pingky</a></h3>
+                            <p>Cute bed set</p>
+                            <div class="var-price">
+                                <h4>Rp 123,500.000</h4>
+                                <h5>Rp 233,600.000</h5>
+                            </div>
+                        </div>
+                        <div class="overlay d-flex">
+                            <div class="add-to-cart">
+                                <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                            </div>
+                            <div class="shareIcons">
+                                <a href="#"><i class="fa fa-share"></i>Share</a>
+                                <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                                <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product-cards">
+                        <div class="card-img">
+                            <img src="assets/img/products/08.png" alt="" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h3><a href="#">Potty</a></h3>
+                            <p>Minimalist flower pot</p>
+                            <div class="var-price">
+                                <h4>Rp 500.000</h4>
+                            </div>
+                        </div>
+                        <div class="overlay d-flex">
+                            <div class="add-to-cart">
+                                <a href="#" class="btn btn-light-outline">Add to Cart</a>
+                            </div>
+                            <div class="shareIcons">
+                                <a href="#"><i class="fa fa-share"></i>Share</a>
+                                <a href="#"><i class="fa-solid fa-code-compare"></i>Compare</a>
+                                <a href="#"><i class="fa-regular fa-heart"></i>Like</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="viewMore">
+                <button class="btn btn-primary-outline">Show More</button>
+            </div>
+        </div>
+    </section>
+
+    <!--section room inspiration-->
+    <section class="insp">
+        <div class="container">
+            <div class="section-inspWrapper">
+                <div class="section-title">
+                    <h2>50+ Beautiful rooms inspiration</h2>
+                    <p>
+                        Our designer already made a lot of beautiful prototipe of rooms
+                        that inspire you
+                    </p>
+                    <button class="btn btn-primary">Explore More</button>
+                </div>
+                <div class="sliderWrapper-1">
+                    <div class="swiper sliderBig">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/img/sliders/01.png" alt="" />
+                                <div class="content">
+                                    <p>01 Bedroom</p>
+                                    <h3>Inner Peace</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/sliders/01.png" alt="" />
+                                <div class="content">
+                                    <p>02 Living</p>
+                                    <h3>Inner Peace</h3>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/sliders/01.png" alt="" />
+                                <div class="content">
+                                    <p>03 Dining</p>
+                                    <h3>Inner Peace</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiperNav">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--slider one ends here-->
+                <div class="sliderWrapper-2">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="assets/img/sliders/02.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/sliders/img-1.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/sliders/img-2.png" alt="" />
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="assets/img/sliders/img-1.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="mySwipper-Nav">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="child">
+                    <img src="assets/img/Funiro..png" alt="" class="img-fluid" />
+                    <p>
+                        400 University Drive Suite 200 Coral Gables,<br />
+                        FL 33134 USA
+                    </p>
+                </div>
+                <div class="child">
+                    <h2 class="footer-title">Links</h2>
+                    <ul class="footer-link">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="child">
+                    <h2 class="footer-title">Help</h2>
+                    <ul class="footer-link">
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="child">
+                    <h2 class="footer-title">Newsletter</h2>
+                    <form action="" class="newsletter">
+                        <input type="email" name="email" placeholder="Enter Your Email Address" />
+                        <button>Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/app,js"></script>
+</body>
+
+</html>
